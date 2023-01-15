@@ -17,5 +17,10 @@ for row in csvreader:
 print("the list",list)
 print("The set ",s)
 print("The dictionary ",dict)
+
+# output
+#the list [['John', 'Ken', '11'], ['Ronny', 'Baggs', '12'], ['Sam', 'Shone', '13']]
+#The set  {('John', 'Ken', '11'), ('Ronny', 'Baggs', '12'), ('Sam', 'Shone', '13')}
+#The dictionary  {'John Ken': '11', 'Ronny Baggs': '12', 'Sam Shone': '13'}
     
 
