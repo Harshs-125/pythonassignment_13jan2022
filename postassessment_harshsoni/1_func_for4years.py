@@ -7,6 +7,4 @@ def generate():
     while(current_date<temp_date+relativedelta(years=4)):
         print(current_date)
         current_date=current_date+timedelta(days=1)
-
-
 generate()
